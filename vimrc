@@ -31,6 +31,8 @@ Plugin 'fisadev/vim-debug.vim'
 Plugin 'moll/vim-bbye'
 " Code commenter
 Plugin 'scrooloose/nerdcommenter'
+" Best File Browser
+Plugin 'scrooloose/nerdtree'
 " Class/module browser
 Plugin 'majutsushi/tagbar'
 " Tagbar support for Javascript
@@ -137,7 +139,7 @@ map <F4> :TagbarToggle<CR>
 let g:tagbar_autofocus = 1
 
 " Netrw (file browser) toggle
-map <F3> :Vexplore<CR>
+map <F3> :NERDTreeToggle<CR>
 map <S-Right> :bn!<CR>
 map <S-Left> :bp!<CR>
 :let g:netrw_chgwin=2 
